@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Desirable Nails — Nail Salon in Cranbrook</title>
+<style>:root{--bg:#fff5f8;--ink:#503543;--acc:#d1658f;--soft:#fbdcea;--lil:#e6dcf5}body{margin:0;font-family:Quicksand,'Segoe UI',sans-serif;background:linear-gradient(180deg,#fff5f8,#fdf2f7);color:var(--ink)}h1,h2{font-family:Italiana,Georgia,serif;letter-spacing:2px}header{text-align:center;padding:24px 16px 4px}.brand{font-family:Italiana,Georgia,serif;font-size:36px;letter-spacing:5px}.hero{text-align:center;padding:28px 18px}.hero h1{font-size:38px;margin:6px 0}.btn{display:inline-block;background:var(--acc);color:#fff;padding:12px 28px;border-radius:999px;text-decoration:none;font-weight:700}main{max-width:880px;margin:0 auto;padding:16px 18px 26px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.card{background:#fff;border:1px solid var(--soft);border-radius:20px;padding:14px 16px;text-align:center}table{width:100%;border-collapse:collapse}td{padding:7px 4px;border-bottom:1px solid var(--lil)}form{display:grid;gap:10px;max-width:520px;margin:0 auto}input,select,textarea{width:100%;padding:10px;border:1px solid #e3b7cb;border-radius:14px;font:inherit}button{background:var(--acc);color:#fff;border:0;padding:12px;border-radius:999px;font:inherit;font-weight:700;cursor:pointer}.disc,.formnote{font-size:13px;opacity:.75}.ref{font-weight:700;color:var(--acc)}footer{text-align:center;padding:22px;font-size:14px;background:var(--lil)}a{color:var(--acc)}</style>
+</head>
+<body>
+<header><div class="brand">Desirable Nails</div><a class="btn" href="tel:+12504640445">Call to book nails: (250) 464-0445</a></header>
+<section class="hero"><h1>Acrylics, gel & nail art — open seven days</h1><p>Desirable Nails is a nail salon on Cranbrook Street North in Cranbrook, BC — acrylics, gel extensions, dip powder and nail art, open seven days a week.</p><p><a class="btn" href="tel:+12504640445">(250) 464-0445</a></p></section>
+<main>
+<h2 id="services">Services</h2>
+<div class="grid"><div class="card">Acrylic Nails</div><div class="card">Gel Nail Extensions</div><div class="card">Dip Powder Nails</div><div class="card">Nail Art</div><div class="card">Manicure</div><div class="card">Pedicure</div><div class="card">Men's Manicure</div><div class="card">Men's Pedicure</div><div class="card">White Chrome Designs</div><div class="card">Floral Nail Designs</div></div>
+<h2 id="hours">Hours</h2>
+<table><tr><td>Monday</td><td>9:00 AM – 6:00 PM</td></tr><tr><td>Tuesday</td><td>9:00 AM – 6:00 PM</td></tr><tr><td>Wednesday</td><td>9:00 AM – 6:00 PM</td></tr><tr><td>Thursday</td><td>9:00 AM – 6:00 PM</td></tr><tr><td>Friday</td><td>9:00 AM – 6:00 PM</td></tr><tr><td>Saturday</td><td>9:00 AM – 6:00 PM</td></tr><tr><td>Sunday</td><td>11:00 AM – 5:00 PM</td></tr></table>
+<h2 id="visit">Visit Us</h2>
+<p>175 1500 Cranbrook St N, Cranbrook, BC V1C 3S8<br><a href="tel:+12504640445">(250) 464-0445</a></p>
+<h2 id="book">Request an Appointment</h2>
+<form id="req" novalidate>
+<label>Your name<input required type="text" name="name" placeholder="Your name"></label>
+<label>Phone<input required type="tel" name="phone" placeholder="(000) 000-0000"></label>
+<label>Service you'd like<select name="service"><option>Acrylic Nails</option><option>Gel Nail Extensions</option><option>Dip Powder Nails</option><option>Nail Art</option><option>Manicure</option><option>Pedicure</option><option>Men's Manicure</option><option>Men's Pedicure</option><option>White Chrome Designs</option><option>Floral Nail Designs</option></select></label>
+<label>Message (optional)<textarea name="msg" rows="3"></textarea></label>
+<button type="submit">Send request</button>
+<p class="formnote">This concept form doesn't send anything yet — it shows a local reference to demonstrate the flow.</p>
+<p class="disc">Concept preview — this is a sample website concept, not Desirable Nails's official site.</p>
+<p id="ref" class="ref" hidden></p>
+</form>
+<script>
+document.getElementById('req').addEventListener('submit',function(e){e.preventDefault();
+var r='DN54-'+Math.floor(10000+Math.random()*90000);
+var el=document.getElementById('ref');el.hidden=false;
+el.textContent="Thanks! Your request reference is "+r+". On the live site, this request would go straight to the shop.";});
+</script>
+</main>
+<footer><p>Desirable Nails — 175 1500 Cranbrook St N, Cranbrook, BC V1C 3S8 — <a href="tel:+12504640445">(250) 464-0445</a></p><p>Concept preview — this is a sample website concept, not Desirable Nails's official site.</p></footer>
+</body>
+</html>
